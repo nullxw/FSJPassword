@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4256ACA5199CAE15001A8D07 /* a.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4256ACA4199CAE15001A8D07 /* a.plist */; };
+		4256ACA7199CAE32001A8D07 /* b.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4256ACA6199CAE32001A8D07 /* b.xml */; };
+		4256ACAC199CAE91001A8D07 /* XmlParseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4256ACAA199CAE91001A8D07 /* XmlParseController.m */; };
+		4256ACAD199CAE91001A8D07 /* XmlParseController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4256ACAB199CAE91001A8D07 /* XmlParseController.xib */; };
 		4266CD7F199CA87F0047CB96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4266CD7E199CA87F0047CB96 /* Foundation.framework */; };
 		4266CD81199CA87F0047CB96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4266CD80199CA87F0047CB96 /* CoreGraphics.framework */; };
 		4266CD83199CA87F0047CB96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4266CD82199CA87F0047CB96 /* UIKit.framework */; };
@@ -26,6 +30,8 @@
 		4266CDCB199CA97E0047CB96 /* MJPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4266CDC7199CA97E0047CB96 /* MJPasswordView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4266CDCC199CA97E0047CB96 /* MJPathLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4266CDC9199CA97E0047CB96 /* MJPathLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4297C242199CAA14004E3F64 /* MJPasswordPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4297C241199CAA14004E3F64 /* MJPasswordPopView.m */; };
+		4297C248199CAC93004E3F64 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 4297C245199CAC93004E3F64 /* Stack.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4297C249199CAC93004E3F64 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4297C247199CAC93004E3F64 /* XMLParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4256ACA4199CAE15001A8D07 /* a.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = a.plist; sourceTree = "<group>"; };
+		4256ACA6199CAE32001A8D07 /* b.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = b.xml; sourceTree = "<group>"; };
+		4256ACA9199CAE91001A8D07 /* XmlParseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlParseController.h; sourceTree = "<group>"; };
+		4256ACAA199CAE91001A8D07 /* XmlParseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlParseController.m; sourceTree = "<group>"; };
+		4256ACAB199CAE91001A8D07 /* XmlParseController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XmlParseController.xib; sourceTree = "<group>"; };
 		4266CD7B199CA87F0047CB96 /* FSJPassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSJPassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4266CD7E199CA87F0047CB96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4266CD80199CA87F0047CB96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,6 +79,10 @@
 		4266CDC9199CA97E0047CB96 /* MJPathLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPathLayer.m; sourceTree = "<group>"; };
 		4297C240199CAA14004E3F64 /* MJPasswordPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPasswordPopView.h; sourceTree = "<group>"; };
 		4297C241199CAA14004E3F64 /* MJPasswordPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPasswordPopView.m; sourceTree = "<group>"; };
+		4297C244199CAC93004E3F64 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		4297C245199CAC93004E3F64 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		4297C246199CAC93004E3F64 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		4297C247199CAC93004E3F64 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +109,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4256ACA3199CADF3001A8D07 /* Xmls */ = {
+			isa = PBXGroup;
+			children = (
+				4256ACA4199CAE15001A8D07 /* a.plist */,
+				4256ACA6199CAE32001A8D07 /* b.xml */,
+			);
+			name = Xmls;
+			path = Sources/Xmls;
+			sourceTree = "<group>";
+		};
+		4256ACA8199CAE5E001A8D07 /* Xml解析 */ = {
+			isa = PBXGroup;
+			children = (
+				4256ACA9199CAE91001A8D07 /* XmlParseController.h */,
+				4256ACAA199CAE91001A8D07 /* XmlParseController.m */,
+				4256ACAB199CAE91001A8D07 /* XmlParseController.xib */,
+			);
+			path = "Xml解析";
+			sourceTree = "<group>";
+		};
 		4266CD72199CA87F0047CB96 = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +175,7 @@
 		4266CD85199CA87F0047CB96 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4256ACA3199CADF3001A8D07 /* Xmls */,
 				4266CD86199CA87F0047CB96 /* FSJPassword-Info.plist */,
 				4266CD87199CA87F0047CB96 /* InfoPlist.strings */,
 				4266CD8A199CA87F0047CB96 /* main.m */,
@@ -169,9 +205,10 @@
 		4266CDAD199CA8EA0047CB96 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4266CDAE199CA8F80047CB96 /* MainViewController.h */,
+				4256ACA8199CAE5E001A8D07 /* Xml解析 */,
 				4297C240199CAA14004E3F64 /* MJPasswordPopView.h */,
 				4297C241199CAA14004E3F64 /* MJPasswordPopView.m */,
+				4266CDAE199CA8F80047CB96 /* MainViewController.h */,
 				4266CDAF199CA8F80047CB96 /* MainViewController.m */,
 				4266CDB0199CA8F80047CB96 /* MainViewController.xib */,
 				4266CDB3199CA9150047CB96 /* BaseViewController.h */,
@@ -183,6 +220,7 @@
 		4266CDC2199CA97E0047CB96 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				4297C243199CAC93004E3F64 /* XMLParser */,
 				4266CDC3199CA97E0047CB96 /* MJPasswordview */,
 			);
 			path = Libs;
@@ -199,6 +237,17 @@
 				4266CDC9199CA97E0047CB96 /* MJPathLayer.m */,
 			);
 			path = MJPasswordview;
+			sourceTree = "<group>";
+		};
+		4297C243199CAC93004E3F64 /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				4297C244199CAC93004E3F64 /* Stack.h */,
+				4297C245199CAC93004E3F64 /* Stack.m */,
+				4297C246199CAC93004E3F64 /* XMLParser.h */,
+				4297C247199CAC93004E3F64 /* XMLParser.m */,
+			);
+			path = XMLParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,8 +326,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4266CD89199CA87F0047CB96 /* InfoPlist.strings in Resources */,
+				4256ACA7199CAE32001A8D07 /* b.xml in Resources */,
 				4266CDB2199CA8F80047CB96 /* MainViewController.xib in Resources */,
+				4256ACA5199CAE15001A8D07 /* a.plist in Resources */,
 				4266CD91199CA87F0047CB96 /* Images.xcassets in Resources */,
+				4256ACAD199CAE91001A8D07 /* XmlParseController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +349,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4297C248199CAC93004E3F64 /* Stack.m in Sources */,
 				4266CDCA199CA97E0047CB96 /* MJCircleLayer.m in Sources */,
 				4266CD8F199CA87F0047CB96 /* AppDelegate.m in Sources */,
 				4297C242199CAA14004E3F64 /* MJPasswordPopView.m in Sources */,
+				4297C249199CAC93004E3F64 /* XMLParser.m in Sources */,
 				4266CDB5199CA9150047CB96 /* BaseViewController.m in Sources */,
 				4266CDB1199CA8F80047CB96 /* MainViewController.m in Sources */,
 				4266CDCB199CA97E0047CB96 /* MJPasswordView.m in Sources */,
+				4256ACAC199CAE91001A8D07 /* XmlParseController.m in Sources */,
 				4266CD8B199CA87F0047CB96 /* main.m in Sources */,
 				4266CDCC199CA97E0047CB96 /* MJPathLayer.m in Sources */,
 			);

@@ -7,6 +7,7 @@
 //
 
 #import "MainViewController.h"
+#import "XmlParseController.h"
 
 @interface MainViewController ()
 
@@ -48,6 +49,11 @@
     [popView setPasswordType:PasswordTypeEnter];
     popView.delegate = self;
     [popView show:[[[UIApplication sharedApplication] delegate] window]];
+}
+
+- (IBAction)clickXmlParse:(id)sender {
+    XmlParseController *parseController = [[XmlParseController alloc] initWithNibName:@"XmlParseController" bundle:nil];
+    [self.navigationController pushViewController:parseController animated:YES];
 }
 
 #pragma mark - MJPasswordPopViewDelegate

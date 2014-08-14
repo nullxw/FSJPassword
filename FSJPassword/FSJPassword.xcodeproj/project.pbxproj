@@ -19,6 +19,13 @@
 		4266CD9A199CA87F0047CB96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4266CD82199CA87F0047CB96 /* UIKit.framework */; };
 		4266CDA2199CA87F0047CB96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4266CDA0199CA87F0047CB96 /* InfoPlist.strings */; };
 		4266CDA4199CA87F0047CB96 /* FSJPasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4266CDA3199CA87F0047CB96 /* FSJPasswordTests.m */; };
+		4266CDB1199CA8F80047CB96 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4266CDAF199CA8F80047CB96 /* MainViewController.m */; };
+		4266CDB2199CA8F80047CB96 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4266CDB0199CA8F80047CB96 /* MainViewController.xib */; };
+		4266CDB5199CA9150047CB96 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4266CDB4199CA9150047CB96 /* BaseViewController.m */; };
+		4266CDCA199CA97E0047CB96 /* MJCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4266CDC5199CA97E0047CB96 /* MJCircleLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4266CDCB199CA97E0047CB96 /* MJPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4266CDC7199CA97E0047CB96 /* MJPasswordView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4266CDCC199CA97E0047CB96 /* MJPathLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4266CDC9199CA97E0047CB96 /* MJPathLayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4297C242199CAA14004E3F64 /* MJPasswordPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4297C241199CAA14004E3F64 /* MJPasswordPopView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,19 @@
 		4266CD9F199CA87F0047CB96 /* FSJPasswordTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FSJPasswordTests-Info.plist"; sourceTree = "<group>"; };
 		4266CDA1199CA87F0047CB96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4266CDA3199CA87F0047CB96 /* FSJPasswordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSJPasswordTests.m; sourceTree = "<group>"; };
+		4266CDAE199CA8F80047CB96 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4266CDAF199CA8F80047CB96 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4266CDB0199CA8F80047CB96 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		4266CDB3199CA9150047CB96 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		4266CDB4199CA9150047CB96 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		4266CDC4199CA97E0047CB96 /* MJCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCircleLayer.h; sourceTree = "<group>"; };
+		4266CDC5199CA97E0047CB96 /* MJCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCircleLayer.m; sourceTree = "<group>"; };
+		4266CDC6199CA97E0047CB96 /* MJPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPasswordView.h; sourceTree = "<group>"; };
+		4266CDC7199CA97E0047CB96 /* MJPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPasswordView.m; sourceTree = "<group>"; };
+		4266CDC8199CA97E0047CB96 /* MJPathLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPathLayer.h; sourceTree = "<group>"; };
+		4266CDC9199CA97E0047CB96 /* MJPathLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPathLayer.m; sourceTree = "<group>"; };
+		4297C240199CAA14004E3F64 /* MJPasswordPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPasswordPopView.h; sourceTree = "<group>"; };
+		4297C241199CAA14004E3F64 /* MJPasswordPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPasswordPopView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +127,8 @@
 		4266CD84199CA87F0047CB96 /* FSJPassword */ = {
 			isa = PBXGroup;
 			children = (
+				4266CDC2199CA97E0047CB96 /* Libs */,
+				4266CDAD199CA8EA0047CB96 /* Controllers */,
 				4266CD8D199CA87F0047CB96 /* AppDelegate.h */,
 				4266CD8E199CA87F0047CB96 /* AppDelegate.m */,
 				4266CD90199CA87F0047CB96 /* Images.xcassets */,
@@ -142,6 +164,41 @@
 				4266CDA0199CA87F0047CB96 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4266CDAD199CA8EA0047CB96 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4266CDAE199CA8F80047CB96 /* MainViewController.h */,
+				4297C240199CAA14004E3F64 /* MJPasswordPopView.h */,
+				4297C241199CAA14004E3F64 /* MJPasswordPopView.m */,
+				4266CDAF199CA8F80047CB96 /* MainViewController.m */,
+				4266CDB0199CA8F80047CB96 /* MainViewController.xib */,
+				4266CDB3199CA9150047CB96 /* BaseViewController.h */,
+				4266CDB4199CA9150047CB96 /* BaseViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4266CDC2199CA97E0047CB96 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				4266CDC3199CA97E0047CB96 /* MJPasswordview */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		4266CDC3199CA97E0047CB96 /* MJPasswordview */ = {
+			isa = PBXGroup;
+			children = (
+				4266CDC4199CA97E0047CB96 /* MJCircleLayer.h */,
+				4266CDC5199CA97E0047CB96 /* MJCircleLayer.m */,
+				4266CDC6199CA97E0047CB96 /* MJPasswordView.h */,
+				4266CDC7199CA97E0047CB96 /* MJPasswordView.m */,
+				4266CDC8199CA97E0047CB96 /* MJPathLayer.h */,
+				4266CDC9199CA97E0047CB96 /* MJPathLayer.m */,
+			);
+			path = MJPasswordview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4266CD89199CA87F0047CB96 /* InfoPlist.strings in Resources */,
+				4266CDB2199CA8F80047CB96 /* MainViewController.xib in Resources */,
 				4266CD91199CA87F0047CB96 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +297,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4266CDCA199CA97E0047CB96 /* MJCircleLayer.m in Sources */,
 				4266CD8F199CA87F0047CB96 /* AppDelegate.m in Sources */,
+				4297C242199CAA14004E3F64 /* MJPasswordPopView.m in Sources */,
+				4266CDB5199CA9150047CB96 /* BaseViewController.m in Sources */,
+				4266CDB1199CA8F80047CB96 /* MainViewController.m in Sources */,
+				4266CDCB199CA97E0047CB96 /* MJPasswordView.m in Sources */,
 				4266CD8B199CA87F0047CB96 /* main.m in Sources */,
+				4266CDCC199CA97E0047CB96 /* MJPathLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +501,7 @@
 				4266CDA9199CA87F0047CB96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4266CDAA199CA87F0047CB96 /* Build configuration list for PBXNativeTarget "FSJPasswordTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +510,7 @@
 				4266CDAC199CA87F0047CB96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

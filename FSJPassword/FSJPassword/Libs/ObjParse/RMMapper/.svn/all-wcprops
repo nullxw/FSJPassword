@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/YTO_MobilePhone/!svn/ver/2063/02_CODE/IOS/YTongExpress_IOS/YTongExpress_IOS/YTongExpress/Utils/ObjParse/RMMapper
+END
+NSObject+RMCopyable.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/YTO_MobilePhone/!svn/ver/2063/02_CODE/IOS/YTongExpress_IOS/YTongExpress_IOS/YTongExpress/Utils/ObjParse/RMMapper/NSObject+RMCopyable.h
+END
+NSObject+RMArchivable.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/YTO_MobilePhone/!svn/ver/2063/02_CODE/IOS/YTongExpress_IOS/YTongExpress_IOS/YTongExpress/Utils/ObjParse/RMMapper/NSObject+RMArchivable.h
+END
+NSUserDefaults+RMSaveCustomObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/YTO_MobilePhone/!svn/ver/2063/02_CODE/IOS/YTongExpress_IOS/YTongExpress_IOS/YTongExpress/Utils/ObjParse/RMMapper/NSUserDefaults+RMSaveCustomObject.h
+END
+RMMapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/YTO_MobilePhone/!svn/ver/2063/02_CODE/IOS/YTongExpress_IOS/YTongExpress_IOS/YTongExpress/Utils/ObjParse/RMMapper/RMMapper.h
+END
+NSObject+RMCopyable.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/YTO_MobilePhone/!svn/ver/2063/02_CODE/IOS/YTongExpress_IOS/YTongExpress_IOS/YTongExpress/Utils/ObjParse/RMMapper/NSObject+RMCopyable.m
+END
+NSObject+RMArchivable.m
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/YTO_MobilePhone/!svn/ver/2063/02_CODE/IOS/YTongExpress_IOS/YTongExpress_IOS/YTongExpress/Utils/ObjParse/RMMapper/NSObject+RMArchivable.m
+END
+NSUserDefaults+RMSaveCustomObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/YTO_MobilePhone/!svn/ver/2063/02_CODE/IOS/YTongExpress_IOS/YTongExpress_IOS/YTongExpress/Utils/ObjParse/RMMapper/NSUserDefaults+RMSaveCustomObject.m
+END
+RMMapper.m
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/YTO_MobilePhone/!svn/ver/2063/02_CODE/IOS/YTongExpress_IOS/YTongExpress_IOS/YTongExpress/Utils/ObjParse/RMMapper/RMMapper.m
+END

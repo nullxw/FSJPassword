@@ -8,6 +8,7 @@
 
 #import "MainViewController.h"
 #import "XmlParseController.h"
+#import "JsonObjectParseController.h"
 
 @interface MainViewController ()
 
@@ -53,6 +54,11 @@
 
 - (IBAction)clickXmlParse:(id)sender {
     XmlParseController *parseController = [[XmlParseController alloc] initWithNibName:@"XmlParseController" bundle:nil];
+    [self.navigationController pushViewController:parseController animated:YES];
+}
+
+- (IBAction)clickJsonParseToObject:(id)sender {
+    JsonObjectParseController *parseController = [[JsonObjectParseController alloc] initWithNibName:@"JsonObjectParseController" bundle:nil];
     [self.navigationController pushViewController:parseController animated:YES];
 }
 

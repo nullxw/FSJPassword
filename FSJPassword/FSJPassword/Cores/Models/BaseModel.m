@@ -7,7 +7,13 @@
 //
 
 #import "BaseModel.h"
+#import "LQDescriptionBuilder.h"
 
 @implementation BaseModel
+
+// bean输出
+- (NSString *)description {
+    return [LQDescriptionBuilder reflectionToString:self];
+}
 
 @end

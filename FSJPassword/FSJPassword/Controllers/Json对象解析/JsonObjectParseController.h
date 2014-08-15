@@ -8,6 +8,7 @@
 
 #import "BaseViewController.h"
 #import "ProfessorModel.h"
+#import "LabelModel.h"
 
 @interface JsonObjectParseController : BaseViewController
 

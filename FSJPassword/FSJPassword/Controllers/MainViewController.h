@@ -9,6 +9,11 @@
 #import "BaseViewController.h"
 #import "MJPasswordPopView.h"
 
-@interface MainViewController : BaseViewController <MJPasswordPopViewDelegate>
+@interface MainViewController : BaseViewController <MJPasswordPopViewDelegate,UITableViewDataSource,UITableViewDelegate> {
+    IBOutlet UITableView *v_tableView;
+    
+@private
+    NSArray *menuList;
+}
 
 @end

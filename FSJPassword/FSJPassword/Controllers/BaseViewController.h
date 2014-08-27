@@ -10,4 +10,9 @@
 
 @interface BaseViewController : UIViewController
 
+/**
+ * 数据少的时候，去掉多余的分割线
+ */
+- (void)setExtraCellLineHidden: (UITableView *)tableView;
+
 @end

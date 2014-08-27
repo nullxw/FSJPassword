@@ -28,6 +28,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [self initNavbar];
+    
     [self initView];
 }
 
@@ -35,6 +37,10 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)initNavbar {
+    self.navigationItem.title = @"xml解析";
 }
 
 - (void)initView {

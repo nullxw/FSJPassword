@@ -9,6 +9,7 @@
 #import "MainViewController.h"
 #import "XmlParseController.h"
 #import "JsonObjectParseController.h"
+#import "ImageEnlargeController.h"
 
 @interface MainViewController ()
 
@@ -29,6 +30,12 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    [self setExtraCellLineHidden:v_tableView];
+    
+    menuList = [NSArray arrayWithObjects:@"设置密码",@"输入密码",@"xml解析",@"json解析成对象",@"图片放大", nil];
+    
+    [v_tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning
@@ -37,29 +44,66 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - btn action
-- (IBAction)clickSetPassword:(id)sender {
-    MJPasswordPopView *popView = [MJPasswordPopView sharePopView];
-    [popView setPasswordType:PasswordTypeSet];
-    popView.delegate = self;
-    [popView show:[[[UIApplication sharedApplication] delegate] window]];
+#pragma mark - UITableViewDataSource
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return [menuList count];
 }
 
-- (IBAction)clickEnterPassword:(id)sender {
-    MJPasswordPopView *popView = [MJPasswordPopView sharePopView];
-    [popView setPasswordType:PasswordTypeEnter];
-    popView.delegate = self;
-    [popView show:[[[UIApplication sharedApplication] delegate] window]];
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *identifierCell = @"identifierCell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifierCell];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifierCell];
+    }
+    int row = [indexPath row];
+    cell.textLabel.text = [menuList objectAtIndex:row];
+    [cell.textLabel setTextColor:COLOR(104.0, 243.0, 44.0, 1.0)];
+    [cell.textLabel setTextAlignment:NSTextAlignmentCenter];
+    return cell;
 }
 
-- (IBAction)clickXmlParse:(id)sender {
-    XmlParseController *parseController = [[XmlParseController alloc] initWithNibName:@"XmlParseController" bundle:nil];
-    [self.navigationController pushViewController:parseController animated:YES];
-}
-
-- (IBAction)clickJsonParseToObject:(id)sender {
-    JsonObjectParseController *parseController = [[JsonObjectParseController alloc] initWithNibName:@"JsonObjectParseController" bundle:nil];
-    [self.navigationController pushViewController:parseController animated:YES];
+#pragma mark - UITableViewDelegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    int row = [indexPath row];
+    switch (row) {
+        case 0:
+        {
+            MJPasswordPopView *popView = [MJPasswordPopView sharePopView];
+            [popView setPasswordType:PasswordTypeSet];
+            popView.delegate = self;
+            [popView show:[[[UIApplication sharedApplication] delegate] window]];
+        }
+            break;
+        case 1:
+        {
+            MJPasswordPopView *popView = [MJPasswordPopView sharePopView];
+            [popView setPasswordType:PasswordTypeEnter];
+            popView.delegate = self;
+            [popView show:[[[UIApplication sharedApplication] delegate] window]];
+        }
+            break;
+        case 2:
+        {
+            XmlParseController *parseController = [[XmlParseController alloc] initWithNibName:@"XmlParseController" bundle:nil];
+            [self.navigationController pushViewController:parseController animated:YES];
+        }
+            break;
+        case 3:
+        {
+            JsonObjectParseController *parseController = [[JsonObjectParseController alloc] initWithNibName:@"JsonObjectParseController" bundle:nil];
+            [self.navigationController pushViewController:parseController animated:YES];
+        }
+            break;
+        case 4:
+        {
+            ImageEnlargeController *imageController = [[ImageEnlargeController alloc] initWithNibName:@"ImageEnlargeController" bundle:nil];
+            [self.navigationController pushViewController:imageController animated:YES];
+        }
+            break;
+        default:
+            break;
+    }
 }
 
 #pragma mark - MJPasswordPopViewDelegate

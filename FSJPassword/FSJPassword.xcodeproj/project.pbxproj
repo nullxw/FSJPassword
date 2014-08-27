@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42372C3019AD78980059A6C5 /* ImageEnlargeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42372C2E19AD78980059A6C5 /* ImageEnlargeController.m */; };
+		42372C3119AD78980059A6C5 /* ImageEnlargeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42372C2F19AD78980059A6C5 /* ImageEnlargeController.xib */; };
+		42372C3719AD79280059A6C5 /* 1f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42372C3419AD79280059A6C5 /* 1f.jpg */; };
+		42372C3819AD79280059A6C5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42372C3619AD79280059A6C5 /* 1.jpg */; };
+		42372C3C19AD79EA0059A6C5 /* FSJFocusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42372C3B19AD79EA0059A6C5 /* FSJFocusManager.m */; };
+		42372C4019AD7A7D0059A6C5 /* FSJFocusController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42372C3E19AD7A7D0059A6C5 /* FSJFocusController.m */; };
+		42372C4119AD7A7D0059A6C5 /* FSJFocusController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42372C3F19AD7A7D0059A6C5 /* FSJFocusController.xib */; };
 		4256ACA5199CAE15001A8D07 /* a.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4256ACA4199CAE15001A8D07 /* a.plist */; };
 		4256ACA7199CAE32001A8D07 /* b.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4256ACA6199CAE32001A8D07 /* b.xml */; };
 		4256ACAC199CAE91001A8D07 /* XmlParseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4256ACAA199CAE91001A8D07 /* XmlParseController.m */; };
@@ -76,6 +83,7 @@
 		42AC9DA3199CB94F00E05D98 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AC9D95199CB94F00E05D98 /* SBJsonTokeniser.m */; };
 		42AC9DA4199CB94F00E05D98 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AC9D97199CB94F00E05D98 /* SBJsonUTF8Stream.m */; };
 		42AC9DA5199CB94F00E05D98 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AC9D99199CB94F00E05D98 /* SBJsonWriter.m */; };
+		42F37E9319ADBA8B0082D2AF /* FSJImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F37E9219ADBA8B0082D2AF /* FSJImageScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +97,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42372C2D19AD78980059A6C5 /* ImageEnlargeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageEnlargeController.h; sourceTree = "<group>"; };
+		42372C2E19AD78980059A6C5 /* ImageEnlargeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageEnlargeController.m; sourceTree = "<group>"; };
+		42372C2F19AD78980059A6C5 /* ImageEnlargeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageEnlargeController.xib; sourceTree = "<group>"; };
+		42372C3419AD79280059A6C5 /* 1f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1f.jpg; sourceTree = "<group>"; };
+		42372C3619AD79280059A6C5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		42372C3A19AD79EA0059A6C5 /* FSJFocusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSJFocusManager.h; sourceTree = "<group>"; };
+		42372C3B19AD79EA0059A6C5 /* FSJFocusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSJFocusManager.m; sourceTree = "<group>"; };
+		42372C3D19AD7A7D0059A6C5 /* FSJFocusController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSJFocusController.h; sourceTree = "<group>"; };
+		42372C3E19AD7A7D0059A6C5 /* FSJFocusController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSJFocusController.m; sourceTree = "<group>"; };
+		42372C3F19AD7A7D0059A6C5 /* FSJFocusController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSJFocusController.xib; sourceTree = "<group>"; };
 		4256ACA4199CAE15001A8D07 /* a.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = a.plist; sourceTree = "<group>"; };
 		4256ACA6199CAE32001A8D07 /* b.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = b.xml; sourceTree = "<group>"; };
 		4256ACA9199CAE91001A8D07 /* XmlParseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlParseController.h; sourceTree = "<group>"; };
@@ -217,6 +235,8 @@
 		42AC9D97199CB94F00E05D98 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
 		42AC9D98199CB94F00E05D98 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		42AC9D99199CB94F00E05D98 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		42F37E9119ADBA8B0082D2AF /* FSJImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSJImageScrollView.h; sourceTree = "<group>"; };
+		42F37E9219ADBA8B0082D2AF /* FSJImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSJImageScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +263,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42372C2C19AD78640059A6C5 /* 图片放大 */ = {
+			isa = PBXGroup;
+			children = (
+				42372C2D19AD78980059A6C5 /* ImageEnlargeController.h */,
+				42372C2E19AD78980059A6C5 /* ImageEnlargeController.m */,
+				42372C2F19AD78980059A6C5 /* ImageEnlargeController.xib */,
+			);
+			path = "图片放大";
+			sourceTree = "<group>";
+		};
+		42372C3219AD79280059A6C5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				42372C3319AD79280059A6C5 /* LargeImgs */,
+				42372C3519AD79280059A6C5 /* SmallImgs */,
+			);
+			name = Images;
+			path = Sources/Images;
+			sourceTree = "<group>";
+		};
+		42372C3319AD79280059A6C5 /* LargeImgs */ = {
+			isa = PBXGroup;
+			children = (
+				42372C3419AD79280059A6C5 /* 1f.jpg */,
+			);
+			path = LargeImgs;
+			sourceTree = "<group>";
+		};
+		42372C3519AD79280059A6C5 /* SmallImgs */ = {
+			isa = PBXGroup;
+			children = (
+				42372C3619AD79280059A6C5 /* 1.jpg */,
+			);
+			path = SmallImgs;
+			sourceTree = "<group>";
+		};
+		42372C3919AD798D0059A6C5 /* ShowLargeImg */ = {
+			isa = PBXGroup;
+			children = (
+				42372C3A19AD79EA0059A6C5 /* FSJFocusManager.h */,
+				42372C3B19AD79EA0059A6C5 /* FSJFocusManager.m */,
+				42372C3D19AD7A7D0059A6C5 /* FSJFocusController.h */,
+				42372C3E19AD7A7D0059A6C5 /* FSJFocusController.m */,
+				42372C3F19AD7A7D0059A6C5 /* FSJFocusController.xib */,
+				42F37E9119ADBA8B0082D2AF /* FSJImageScrollView.h */,
+				42F37E9219ADBA8B0082D2AF /* FSJImageScrollView.m */,
+			);
+			path = ShowLargeImg;
+			sourceTree = "<group>";
+		};
 		4256ACA3199CADF3001A8D07 /* Xmls */ = {
 			isa = PBXGroup;
 			children = (
@@ -336,6 +406,7 @@
 		4266CD85199CA87F0047CB96 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				42372C3219AD79280059A6C5 /* Images */,
 				4256ACA3199CADF3001A8D07 /* Xmls */,
 				4266CD86199CA87F0047CB96 /* FSJPassword-Info.plist */,
 				4266CD87199CA87F0047CB96 /* InfoPlist.strings */,
@@ -366,6 +437,7 @@
 		4266CDAD199CA8EA0047CB96 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				42372C2C19AD78640059A6C5 /* 图片放大 */,
 				42AC9D6F199CB6D700E05D98 /* Json对象解析 */,
 				4256ACA8199CAE5E001A8D07 /* Xml解析 */,
 				4297C240199CAA14004E3F64 /* MJPasswordPopView.h */,
@@ -459,6 +531,7 @@
 		42695824199D9490005B21C9 /* Commons */ = {
 			isa = PBXGroup;
 			children = (
+				42372C3919AD798D0059A6C5 /* ShowLargeImg */,
 				42695825199D9490005B21C9 /* HttpRequest */,
 			);
 			path = Commons;
@@ -637,13 +710,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42372C3119AD78980059A6C5 /* ImageEnlargeController.xib in Resources */,
 				4266CD89199CA87F0047CB96 /* InfoPlist.strings in Resources */,
 				4256ACA7199CAE32001A8D07 /* b.xml in Resources */,
 				4266CDB2199CA8F80047CB96 /* MainViewController.xib in Resources */,
+				42372C3719AD79280059A6C5 /* 1f.jpg in Resources */,
 				4256ACA5199CAE15001A8D07 /* a.plist in Resources */,
 				4266CD91199CA87F0047CB96 /* Images.xcassets in Resources */,
 				4256ACAD199CAE91001A8D07 /* XmlParseController.xib in Resources */,
 				42AC9D77199CB70000E05D98 /* JsonObjectParseController.xib in Resources */,
+				42372C4119AD7A7D0059A6C5 /* FSJFocusController.xib in Resources */,
+				42372C3819AD79280059A6C5 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,9 +754,11 @@
 				42AC9DA0199CB94F00E05D98 /* SBJsonStreamWriter.m in Sources */,
 				4266CD8F199CA87F0047CB96 /* AppDelegate.m in Sources */,
 				4256ACBE199CB3F5001A8D07 /* SettingUtil.m in Sources */,
+				42F37E9319ADBA8B0082D2AF /* FSJImageScrollView.m in Sources */,
 				4297C242199CAA14004E3F64 /* MJPasswordPopView.m in Sources */,
 				4297C249199CAC93004E3F64 /* XMLParser.m in Sources */,
 				42695820199D9446005B21C9 /* UIImageView+AFNetworking.m in Sources */,
+				42372C4019AD7A7D0059A6C5 /* FSJFocusController.m in Sources */,
 				4269582B199D956C005B21C9 /* FSJHttpRequest.m in Sources */,
 				4256ACBA199CB3F5001A8D07 /* NSObject+RMArchivable.m in Sources */,
 				42695815199D9446005B21C9 /* AFHTTPSessionManager.m in Sources */,
@@ -708,9 +787,11 @@
 				4269581A199D9446005B21C9 /* AFURLResponseSerialization.m in Sources */,
 				4269581E199D9446005B21C9 /* UIAlertView+AFNetworking.m in Sources */,
 				42695819199D9446005B21C9 /* AFURLRequestSerialization.m in Sources */,
+				42372C3019AD78980059A6C5 /* ImageEnlargeController.m in Sources */,
 				42AC9D9A199CB94F00E05D98 /* NSObject+SBJson.m in Sources */,
 				4269581F199D9446005B21C9 /* UIButton+AFNetworking.m in Sources */,
 				4266CDCC199CA97E0047CB96 /* MJPathLayer.m in Sources */,
+				42372C3C19AD79EA0059A6C5 /* FSJFocusManager.m in Sources */,
 				42AC9DA5199CB94F00E05D98 /* SBJsonWriter.m in Sources */,
 				42695836199DB0A9005B21C9 /* LQBeanUtil.m in Sources */,
 				42AC9D9C199CB94F00E05D98 /* SBJsonStreamParser.m in Sources */,

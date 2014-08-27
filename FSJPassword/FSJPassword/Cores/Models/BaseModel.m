@@ -11,7 +11,7 @@
 
 @implementation BaseModel
 
-// bean输出
+// Model输出
 - (NSString *)description {
     return [LQDescriptionBuilder reflectionToString:self];
 }

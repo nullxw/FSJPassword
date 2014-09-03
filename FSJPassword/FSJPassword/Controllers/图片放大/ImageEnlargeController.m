@@ -7,6 +7,7 @@
 //
 
 #import "ImageEnlargeController.h"
+#import "PopBaseView.h"
 
 @interface ImageEnlargeController ()
 
@@ -47,6 +48,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - btn action
+- (IBAction)clickAlert:(id)sender {
+    PopBaseView *popView = [PopBaseView sharePopView];
+    [popView show];
 }
 
 #pragma mark - FSJFocusManagerDelegate

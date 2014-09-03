@@ -33,7 +33,7 @@
     
     [self setExtraCellLineHidden:v_tableView];
     
-    menuList = [NSArray arrayWithObjects:@"设置密码",@"输入密码",@"xml解析",@"json解析成对象",@"图片放大", nil];
+    menuList = [NSArray arrayWithObjects:@"设置密码",@"输入密码",@"xml解析",@"json解析成对象",@"图片放大 - 自定义alert", nil];
     
     [v_tableView reloadData];
 }
